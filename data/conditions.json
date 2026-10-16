@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "sweep_00",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_00.stim",
+    "circuit_sha256": "9e976e32bccd6df467184233eaeea2bd592e5086cc613b326922c11bb2a74bba",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186000000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.1,
+    "control": false
+  },
+  {
+    "id": "sweep_01",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_01.stim",
+    "circuit_sha256": "955c130de6e5f6fdb1badca9cccf46933a601f1263ea0fcaea1e3eaa1a0cd65b",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186001000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.2,
+    "control": false
+  },
+  {
+    "id": "sweep_02",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_02.stim",
+    "circuit_sha256": "8d782c3cc3d3c290c8e4ce37a6cf6ba8772106a16ccd7d373b700af698de80ef",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186002000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.25,
+    "control": false
+  },
+  {
+    "id": "sweep_03",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_03.stim",
+    "circuit_sha256": "66dce458956ae31730c6fb8f902c5e43834e88b8596f53785bd97102664296c2",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186003000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.3,
+    "control": false
+  },
+  {
+    "id": "sweep_04",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_04.stim",
+    "circuit_sha256": "62b74605ccf31ad1465e229d8d9478b5cf181774f05d5df331e5a41c793f815f",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186004000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.4,
+    "control": false
+  },
+  {
+    "id": "sweep_05",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_05.stim",
+    "circuit_sha256": "0c0d18824ad75f5cdca55e0b07446cbd153d3a09dd9dc8d0e4ff501a59150704",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186005000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.5,
+    "control": false
+  },
+  {
+    "id": "sweep_06",
+    "experiment": "noise_sweep",
+    "circuit": "circuits/sweep_06.stim",
+    "circuit_sha256": "df489c9bf1dc20e9e774f552a9b83bc6579104e86bf183e15705afd1d712aa4f",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 186006000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 28,
+    "scale": 0.5,
+    "control": true
+  },
+  {
+    "id": "intervention_00",
+    "experiment": "intervention",
+    "circuit": "circuits/intervention_00.stim",
+    "circuit_sha256": "0c0d18824ad75f5cdca55e0b07446cbd153d3a09dd9dc8d0e4ff501a59150704",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 188000000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 24,
+    "kind": "target",
+    "factor": 1
+  },
+  {
+    "id": "intervention_01",
+    "experiment": "intervention",
+    "circuit": "circuits/intervention_01.stim",
+    "circuit_sha256": "2a40b01e8bb313d6a1bfbe13ca60e2160b9e65d85becdb62c15c8d03277f0ed0",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 188001000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 24,
+    "kind": "target",
+    "factor": 0.75
+  },
+  {
+    "id": "intervention_02",
+    "experiment": "intervention",
+    "circuit": "circuits/intervention_02.stim",
+    "circuit_sha256": "c9a97819e3b9cf1f9d0fb1b78b6a7c896cde489b3a3294969c9419872936d1d6",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 188002000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 24,
+    "kind": "target",
+    "factor": 0.5
+  },
+  {
+    "id": "intervention_03",
+    "experiment": "intervention",
+    "circuit": "circuits/intervention_03.stim",
+    "circuit_sha256": "e3a2f74e61142619fd4bf0cd1a77a09dbe588f76c36f717f42bd27a4f3a540ea",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 188003000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 24,
+    "kind": "target",
+    "factor": 0.25
+  },
+  {
+    "id": "intervention_04",
+    "experiment": "intervention",
+    "circuit": "circuits/intervention_04.stim",
+    "circuit_sha256": "896e3595dee1a9704f162e118c7a42e915d0b0c16b9b5286ab948e2f5efa1e4f",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 188004000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 24,
+    "kind": "target",
+    "factor": 0
+  },
+  {
+    "id": "intervention_05",
+    "experiment": "intervention",
+    "circuit": "circuits/intervention_05.stim",
+    "circuit_sha256": "11b029f28fd975706611663a0678e934286747b8349fd2045d47626f43fa2749",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 188005000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 24,
+    "kind": "matched",
+    "factor": 0
+  },
+  {
+    "id": "mixed_00",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_00.stim",
+    "circuit_sha256": "46c334cc48a2d4889c8ce7d7eee5e2e24cb42a9d719cc9cf63d96a04fccd037f",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217000000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X80",
+    "weights": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_01",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_01.stim",
+    "circuit_sha256": "b4da02c57dbf4255b4ee55b5dafa8d506127fc05eb69cdc65db7270a48ddb5c8",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217001000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X80",
+    "weights": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_02",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_02.stim",
+    "circuit_sha256": "dbc77539cdd9cd1a2460e2f0171c60efda2484ff3afeb25c2f00697d7e25245b",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217002000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X80",
+    "weights": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "mixed_03",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_03.stim",
+    "circuit_sha256": "7c49c8663f44a46abf3a7875df3ee1bae8a53f192af1ec2acc8bd5ddd214c4b6",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217003000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X60",
+    "weights": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_04",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_04.stim",
+    "circuit_sha256": "cacf7a28ff3b4a93c9e763b07b10302bfb43f9051d5d0bcf53b46cde8ad84349",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217004000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X60",
+    "weights": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_05",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_05.stim",
+    "circuit_sha256": "38f7d49206b1d27ceb6dcb437428c8cc0ab7410d2e757c55918d77c5410d8231",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217005000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X60",
+    "weights": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "mixed_06",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_06.stim",
+    "circuit_sha256": "9dd4e69c42bca91862c2b25d35978d665a07e41008a49277724bc176c3ef6cc3",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217006000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X45",
+    "weights": [
+      0.45,
+      0.275,
+      0.275
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_07",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_07.stim",
+    "circuit_sha256": "ac425ae0055a1f6a124620471c7802d80e8c6e3640bc0c8863c8e9e80f8fcd6c",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217007000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X45",
+    "weights": [
+      0.45,
+      0.275,
+      0.275
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_08",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_08.stim",
+    "circuit_sha256": "039d35de92168fc9c6e298e1f4027f6ef6bfa160ad6ae1132eda69031f15806b",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217008000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "X45",
+    "weights": [
+      0.45,
+      0.275,
+      0.275
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "mixed_09",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_09.stim",
+    "circuit_sha256": "44c524e427b11805738e6f78928682af072cfb1513d42daa763edcc354018b94",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217009000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "isotropic",
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_10",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_10.stim",
+    "circuit_sha256": "e6c1526f8729a967355f6d4a22d9008689bd80fa677608d9618d360b6117aec8",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217010000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "isotropic",
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_11",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_11.stim",
+    "circuit_sha256": "6f110b1ecaf7ef489306c9b78e7a1d3fe29ec0da64a3ad3fee57393876843bfe",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217011000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "isotropic",
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "mixed_12",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_12.stim",
+    "circuit_sha256": "60382199ece67964ca99e97a3709e745bbac1a18e30ef9c78c4b22ca1fb837d1",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217012000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z45",
+    "weights": [
+      0.275,
+      0.275,
+      0.45
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_13",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_13.stim",
+    "circuit_sha256": "f1e8525316b894d865e048e2b3281dc621f745adca41c0beaafc4dcc360755db",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217013000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z45",
+    "weights": [
+      0.275,
+      0.275,
+      0.45
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_14",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_14.stim",
+    "circuit_sha256": "b07461d69284f0bdd0a0731011815b1369b23d77b744cf67f56fb270cf853a76",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 217014000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z45",
+    "weights": [
+      0.275,
+      0.275,
+      0.45
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "mixed_15",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_15.stim",
+    "circuit_sha256": "1701e2b9bffc0600480e84ded19bca8579205565af52153575b14b0a7a4d6b8b",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217015000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z60",
+    "weights": [
+      0.2,
+      0.2,
+      0.6
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_16",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_16.stim",
+    "circuit_sha256": "0540e6a87ff16d94e3c0de0f525cdf015710c870dace38bcfd0cd02ebea49096",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217016000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z60",
+    "weights": [
+      0.2,
+      0.2,
+      0.6
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_17",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_17.stim",
+    "circuit_sha256": "4f4d4279495fceea63aa42a3b01b199cd36d8479162e1f70c09a85179a082329",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217017000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z60",
+    "weights": [
+      0.2,
+      0.2,
+      0.6
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "mixed_18",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_18.stim",
+    "circuit_sha256": "1f9bc9f46a6319888523ed53fa178e2fc96bff15ce4759b443a698a363515246",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217018000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z80",
+    "weights": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "scale": 0.1
+  },
+  {
+    "id": "mixed_19",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_19.stim",
+    "circuit_sha256": "f8d924415520af783feaeeb02499da0d8cc6299c32e6e63fbc466a56f969125f",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217019000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z80",
+    "weights": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "scale": 0.25
+  },
+  {
+    "id": "mixed_20",
+    "experiment": "mixed_bias",
+    "circuit": "circuits/mixed_20.stim",
+    "circuit_sha256": "2cf18c4e8a0a2e762dbca03526c8d18fdefc9b27e648b6fe4e5107b2de7ab32e",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ],
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 217020000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 294,
+    "name": "Z80",
+    "weights": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "scale": 0.5
+  },
+  {
+    "id": "boundary_00",
+    "experiment": "boundary",
+    "circuit": "circuits/boundary_00.stim",
+    "circuit_sha256": "d46a2fc43e0c08862d7f2bee242a3f6ebf81a361790e14378c1828cf9b5f5f95",
+    "targets": [
+      [
+        79,
+        93
+      ],
+      [
+        79,
+        96
+      ],
+      [
+        82,
+        96
+      ]
+    ],
+    "policies": {
+      "predicted": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seed_base": 231000000,
+    "chunk_size": 50000,
+    "original_shots": 10000000,
+    "family_marginals": 12,
+    "scale": 0.1
+  },
+  {
+    "id": "boundary_01",
+    "experiment": "boundary",
+    "circuit": "circuits/boundary_01.stim",
+    "circuit_sha256": "5d99ffa5a10331340cb38418f0046dfee5edc9aef325a6fe48cee6d60e2cb650",
+    "targets": [
+      [
+        79,
+        93
+      ],
+      [
+        79,
+        96
+      ],
+      [
+        82,
+        96
+      ]
+    ],
+    "policies": {
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 231001000,
+    "chunk_size": 50000,
+    "original_shots": 10000000,
+    "family_marginals": 12,
+    "scale": 0.25
+  },
+  {
+    "id": "boundary_02",
+    "experiment": "boundary",
+    "circuit": "circuits/boundary_02.stim",
+    "circuit_sha256": "42be865e819b8ef7f0fe48f0238ade879f0e2cc30166d9461e6db1072e3545ad",
+    "targets": [
+      [
+        79,
+        93
+      ],
+      [
+        79,
+        96
+      ],
+      [
+        82,
+        96
+      ]
+    ],
+    "policies": {
+      "predicted": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 231002000,
+    "chunk_size": 50000,
+    "original_shots": 10000000,
+    "family_marginals": 12,
+    "scale": 0.5
+  }
+]

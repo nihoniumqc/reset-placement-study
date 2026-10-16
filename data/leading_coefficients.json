@@ -1,0 +1,129 @@
+{
+  "definition": "q(s,l; gamma) = linear*gamma + quadratic*gamma^2 + O(gamma^3)",
+  "results": [
+    {
+      "detectors": [
+        63,
+        77
+      ],
+      "labels": [
+        {
+          "label": 0,
+          "linear_coefficient": 0.00013333333333333334,
+          "quadratic_single_survival_coefficient": -0.0006539111111111111,
+          "quadratic_two_fault_coefficient": 1.7005432098765454e-05,
+          "quadratic_coefficient": -0.0006369056790123456,
+          "two_fault_families": {
+            "DEPOLARIZE1 + DEPOLARIZE2": 9.29259259259267e-06,
+            "DEPOLARIZE2 + DEPOLARIZE2": 4.506666666666611e-06,
+            "DEPOLARIZE2 + X_ERROR": 1.6000000000000001e-06,
+            "DEPOLARIZE2 + M": 1.6000000000000001e-06,
+            "DEPOLARIZE1 + DEPOLARIZE1": 6.172839506172839e-09
+          }
+        },
+        {
+          "label": 1,
+          "linear_coefficient": 0,
+          "quadratic_single_survival_coefficient": 0,
+          "quadratic_two_fault_coefficient": 0.0006070523456790124,
+          "quadratic_coefficient": 0.0006070523456790124,
+          "two_fault_families": {
+            "MX + Z_ERROR": 0.000288,
+            "Z_ERROR + Z_ERROR": 0.000144,
+            "MX + MX": 0.000144,
+            "DEPOLARIZE2 + Z_ERROR": 1.2000000000000005e-05,
+            "DEPOLARIZE2 + MX": 1.2000000000000005e-05,
+            "DEPOLARIZE1 + Z_ERROR": 3.333333333333333e-06,
+            "DEPOLARIZE1 + MX": 3.333333333333333e-06,
+            "DEPOLARIZE2 + DEPOLARIZE2": 1.9555555555555544e-07,
+            "DEPOLARIZE1 + DEPOLARIZE2": 1.777777777777777e-07,
+            "DEPOLARIZE1 + DEPOLARIZE1": 1.2345679012345678e-08
+          }
+        }
+      ]
+    },
+    {
+      "detectors": [
+        63,
+        80
+      ],
+      "labels": [
+        {
+          "label": 0,
+          "linear_coefficient": 0.00013333333333333334,
+          "quadratic_single_survival_coefficient": -0.0006539111111111111,
+          "quadratic_two_fault_coefficient": 4.46992592592593e-05,
+          "quadratic_coefficient": -0.0006092118518518518,
+          "two_fault_families": {
+            "DEPOLARIZE2 + Z_ERROR": 1.2800000000000006e-05,
+            "DEPOLARIZE2 + MX": 1.2800000000000006e-05,
+            "DEPOLARIZE1 + DEPOLARIZE2": 9.214814814814896e-06,
+            "DEPOLARIZE2 + DEPOLARIZE2": 4.551111111111054e-06,
+            "DEPOLARIZE1 + Z_ERROR": 2.6666666666666664e-06,
+            "DEPOLARIZE1 + MX": 2.6666666666666664e-06
+          }
+        },
+        {
+          "label": 1,
+          "linear_coefficient": 0,
+          "quadratic_single_survival_coefficient": 0,
+          "quadratic_two_fault_coefficient": 0.000614489012345679,
+          "quadratic_coefficient": 0.000614489012345679,
+          "two_fault_families": {
+            "MX + Z_ERROR": 0.000288,
+            "Z_ERROR + Z_ERROR": 0.000144,
+            "MX + MX": 0.000144,
+            "DEPOLARIZE2 + Z_ERROR": 1.7600000000000008e-05,
+            "DEPOLARIZE2 + MX": 1.7600000000000008e-05,
+            "DEPOLARIZE1 + Z_ERROR": 1.3333333333333332e-06,
+            "DEPOLARIZE1 + MX": 1.3333333333333332e-06,
+            "DEPOLARIZE2 + DEPOLARIZE2": 5.377777777777784e-07,
+            "DEPOLARIZE1 + DEPOLARIZE2": 8.148148148148149e-08,
+            "DEPOLARIZE1 + DEPOLARIZE1": 3.0864197530864194e-09
+          }
+        }
+      ]
+    },
+    {
+      "detectors": [
+        66,
+        80
+      ],
+      "labels": [
+        {
+          "label": 0,
+          "linear_coefficient": 0.00013333333333333334,
+          "quadratic_single_survival_coefficient": -0.0006539111111111111,
+          "quadratic_two_fault_coefficient": 1.7005432098765454e-05,
+          "quadratic_coefficient": -0.0006369056790123456,
+          "two_fault_families": {
+            "DEPOLARIZE1 + DEPOLARIZE2": 9.29259259259267e-06,
+            "DEPOLARIZE2 + DEPOLARIZE2": 4.506666666666611e-06,
+            "DEPOLARIZE2 + X_ERROR": 1.6000000000000001e-06,
+            "DEPOLARIZE2 + M": 1.6000000000000001e-06,
+            "DEPOLARIZE1 + DEPOLARIZE1": 6.172839506172839e-09
+          }
+        },
+        {
+          "label": 1,
+          "linear_coefficient": 0,
+          "quadratic_single_survival_coefficient": 0,
+          "quadratic_two_fault_coefficient": 0.0006070523456790124,
+          "quadratic_coefficient": 0.0006070523456790124,
+          "two_fault_families": {
+            "MX + Z_ERROR": 0.000288,
+            "Z_ERROR + Z_ERROR": 0.000144,
+            "MX + MX": 0.000144,
+            "DEPOLARIZE2 + Z_ERROR": 1.2000000000000005e-05,
+            "DEPOLARIZE2 + MX": 1.2000000000000005e-05,
+            "DEPOLARIZE1 + Z_ERROR": 3.333333333333333e-06,
+            "DEPOLARIZE1 + MX": 3.333333333333333e-06,
+            "DEPOLARIZE2 + DEPOLARIZE2": 1.9555555555555544e-07,
+            "DEPOLARIZE1 + DEPOLARIZE2": 1.777777777777777e-07,
+            "DEPOLARIZE1 + DEPOLARIZE1": 1.2345679012345678e-08
+          }
+        }
+      ]
+    }
+  ]
+}

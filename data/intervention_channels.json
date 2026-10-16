@@ -1,0 +1,269 @@
+{
+  "scale": 0.5,
+  "target_locations": [
+    [
+      170,
+      7
+    ],
+    [
+      170,
+      10
+    ],
+    [
+      189,
+      7
+    ],
+    [
+      189,
+      10
+    ],
+    [
+      258,
+      1
+    ],
+    [
+      258,
+      4
+    ],
+    [
+      277,
+      1
+    ],
+    [
+      277,
+      4
+    ]
+  ],
+  "control_locations": [
+    [
+      170,
+      1
+    ],
+    [
+      170,
+      4
+    ],
+    [
+      189,
+      1
+    ],
+    [
+      189,
+      4
+    ],
+    [
+      258,
+      0
+    ],
+    [
+      258,
+      2
+    ],
+    [
+      277,
+      0
+    ],
+    [
+      277,
+      2
+    ]
+  ],
+  "matches": [
+    {
+      "target": [
+        170,
+        7
+      ],
+      "control": [
+        170,
+        1
+      ],
+      "target_qubit": 27,
+      "control_qubit": 1,
+      "gate": "Z_ERROR",
+      "probability": 0.006,
+      "tick": 20,
+      "target_coordinates": [
+        3.5,
+        2.5
+      ],
+      "control_coordinates": [
+        3.5,
+        0.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        170,
+        10
+      ],
+      "control": [
+        170,
+        4
+      ],
+      "target_qubit": 39,
+      "control_qubit": 13,
+      "gate": "Z_ERROR",
+      "probability": 0.006,
+      "tick": 20,
+      "target_coordinates": [
+        4.5,
+        3.5
+      ],
+      "control_coordinates": [
+        4.5,
+        1.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        189,
+        7
+      ],
+      "control": [
+        189,
+        1
+      ],
+      "target_qubit": 27,
+      "control_qubit": 1,
+      "gate": "MX",
+      "probability": 0.006,
+      "tick": 25,
+      "target_coordinates": [
+        3.5,
+        2.5
+      ],
+      "control_coordinates": [
+        3.5,
+        0.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        189,
+        10
+      ],
+      "control": [
+        189,
+        4
+      ],
+      "target_qubit": 39,
+      "control_qubit": 13,
+      "gate": "MX",
+      "probability": 0.006,
+      "tick": 25,
+      "target_coordinates": [
+        4.5,
+        3.5
+      ],
+      "control_coordinates": [
+        4.5,
+        1.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        258,
+        1
+      ],
+      "control": [
+        258,
+        0
+      ],
+      "target_qubit": 1,
+      "control_qubit": 0,
+      "gate": "Z_ERROR",
+      "probability": 0.006,
+      "tick": 32,
+      "target_coordinates": [
+        3.5,
+        0.5
+      ],
+      "control_coordinates": [
+        1.5,
+        0.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        258,
+        4
+      ],
+      "control": [
+        258,
+        2
+      ],
+      "target_qubit": 13,
+      "control_qubit": 2,
+      "gate": "Z_ERROR",
+      "probability": 0.006,
+      "tick": 32,
+      "target_coordinates": [
+        4.5,
+        1.5
+      ],
+      "control_coordinates": [
+        5.5,
+        0.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        277,
+        1
+      ],
+      "control": [
+        277,
+        0
+      ],
+      "target_qubit": 1,
+      "control_qubit": 0,
+      "gate": "MX",
+      "probability": 0.006,
+      "tick": 37,
+      "target_coordinates": [
+        3.5,
+        0.5
+      ],
+      "control_coordinates": [
+        1.5,
+        0.5
+      ],
+      "manhattan_separation": 2.0
+    },
+    {
+      "target": [
+        277,
+        4
+      ],
+      "control": [
+        277,
+        2
+      ],
+      "target_qubit": 13,
+      "control_qubit": 2,
+      "gate": "MX",
+      "probability": 0.006,
+      "tick": 37,
+      "target_coordinates": [
+        4.5,
+        1.5
+      ],
+      "control_coordinates": [
+        5.5,
+        0.5
+      ],
+      "manhattan_separation": 2.0
+    }
+  ],
+  "imperfections": [
+    "Different qubits and spatial supports are unavoidable; graph degree, detector signatures, and boundary roles are not constrained to match.",
+    "One deterministic nearest-location control, not a random ensemble of matched controls."
+  ]
+}
