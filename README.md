@@ -1,7 +1,5 @@
 # Competing Fault Histories and Finite-Noise Trade-offs in Lattice-Surgery Decoding
 
-**Niharika Verma**  
-Indian Institute of Technology, Patna
 
 This repository contains code and numerical data for a study of competing fault histories in lattice-surgery decoding. The question is simple: when different faults produce the same detector record, can correcting a particular single fault increase the average logical error?
 
