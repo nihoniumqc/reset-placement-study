@@ -1,0 +1,305 @@
+{
+  "prospective": false,
+  "sampling_used": false,
+  "fit_to_observations": false,
+  "description": "Retrospective deterministic approximation: all local fault orders and at most two background faults, without renormalizing discarded mass.",
+  "results": [
+    {
+      "condition": "intervention_04",
+      "scale": 0.5,
+      "factor": 0.0,
+      "q_approx": [
+        [
+          6.424979313412866e-06,
+          1.1405690382028329e-08
+        ],
+        [
+          7.095872101923013e-06,
+          1.7014331364944528e-08
+        ],
+        [
+          6.4249793112983465e-06,
+          1.140569249654485e-08
+        ]
+      ],
+      "predicted_labels": [
+        0,
+        0,
+        0
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "896e3595dee1a9704f162e118c7a42e915d0b0c16b9b5286ab948e2f5efa1e4f",
+      "label_one_effect": -1.990600501239072e-05,
+      "predicted_effect": 0.0
+    },
+    {
+      "condition": "dense_11",
+      "scale": 0.5,
+      "factor": 0.125,
+      "q_approx": [
+        [
+          6.429837173459628e-06,
+          3.147368977300274e-07
+        ],
+        [
+          7.096570375826746e-06,
+          3.42094502928151e-07
+        ],
+        [
+          6.429837180815222e-06,
+          3.147368903744387e-07
+        ]
+      ],
+      "predicted_labels": [
+        0,
+        0,
+        0
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "9ed13be1ed113352f879c978d14d5a59fe5403372a0e76bcc6a4b89b318213d7",
+      "label_one_effect": -1.8984676439068984e-05,
+      "predicted_effect": 0.0
+    },
+    {
+      "condition": "intervention_03",
+      "scale": 0.5,
+      "factor": 0.25,
+      "q_approx": [
+        [
+          6.434504006234613e-06,
+          1.0380524962697945e-06
+        ],
+        [
+          7.097128810815687e-06,
+          1.0869308200668245e-06
+        ],
+        [
+          6.434504022961044e-06,
+          1.0380524795433625e-06
+        ]
+      ],
+      "predicted_labels": [
+        0,
+        0,
+        0
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "e3a2f74e61142619fd4bf0cd1a77a09dbe588f76c36f717f42bd27a4f3a540ea",
+      "label_one_effect": -1.6803101044131366e-05,
+      "predicted_effect": 0.0
+    },
+    {
+      "condition": "dense_12",
+      "scale": 0.5,
+      "factor": 0.375,
+      "q_approx": [
+        [
+          6.438982159002941e-06,
+          2.1756740834298238e-06
+        ],
+        [
+          7.097549262901518e-06,
+          2.245846347187908e-06
+        ],
+        [
+          6.438982185001609e-06,
+          2.1756740574311753e-06
+        ]
+      ],
+      "predicted_labels": [
+        0,
+        0,
+        0
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "7fa5149f7c0e0be35d0d4550ec89e98b09fedcfd53a753e44e97ed3fc2794901",
+      "label_one_effect": -1.3378319118857163e-05,
+      "predicted_effect": 0.0
+    },
+    {
+      "condition": "intervention_02",
+      "scale": 0.5,
+      "factor": 0.5,
+      "q_approx": [
+        [
+          6.443273959537292e-06,
+          3.7219715508300207e-06
+        ],
+        [
+          7.097833571512121e-06,
+          3.81321243628343e-06
+        ],
+        [
+          6.4432739947101585e-06,
+          3.7219715156571364e-06
+        ]
+      ],
+      "predicted_labels": [
+        0,
+        0,
+        0
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "c9a97819e3b9cf1f9d0fb1b78b6a7c896cde489b3a3294969c9419872936d1d6",
+      "label_one_effect": -8.727226022988994e-06,
+      "predicted_effect": 0.0
+    },
+    {
+      "condition": "dense_13",
+      "scale": 0.5,
+      "factor": 0.625,
+      "q_approx": [
+        [
+          6.447381716237546e-06,
+          5.6713627856540725e-06
+        ],
+        [
+          7.097983559601511e-06,
+          5.783448428322719e-06
+        ],
+        [
+          6.4473817604872915e-06,
+          5.6713627414043175e-06
+        ]
+      ],
+      "predicted_labels": [
+        0,
+        0,
+        0
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "ae0dd36a8b80129ce8b08db09be77f7fcd370dca1eb077ca2863f8ef992598fb",
+      "label_one_effect": -2.866573080945229e-06,
+      "predicted_effect": 0.0
+    },
+    {
+      "condition": "intervention_01",
+      "scale": 0.5,
+      "factor": 0.75,
+      "q_approx": [
+        [
+          6.451307718250391e-06,
+          8.018313373368736e-06
+        ],
+        [
+          7.098001033759635e-06,
+          8.15102135599156e-06
+        ],
+        [
+          6.4513077714803014e-06,
+          8.018313320138838e-06
+        ]
+      ],
+      "predicted_labels": [
+        1,
+        1,
+        1
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "2a40b01e8bb313d6a1bfbe13ca60e2160b9e65d85becdb62c15c8d03277f0ed0",
+      "label_one_effect": 4.187031526008814e-06,
+      "predicted_effect": 4.187031526008814e-06
+    },
+    {
+      "condition": "dense_14",
+      "scale": 0.5,
+      "factor": 0.875,
+      "q_approx": [
+        [
+          6.455054235588044e-06,
+          1.0757336301785755e-05
+        ],
+        [
+          7.097887784321212e-06,
+          1.091044564777387e-05
+        ],
+        [
+          6.455054297701998e-06,
+          1.0757336239671828e-05
+        ]
+      ],
+      "predicted_labels": [
+        1,
+        1,
+        1
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "a053e9ac696c0f92ead5733aee8eafa2850624f05f62b2e1e277632f185befbe",
+      "label_one_effect": 1.2417121871620207e-05,
+      "predicted_effect": 1.2417121871620207e-05
+    },
+    {
+      "condition": "intervention_00",
+      "scale": 0.5,
+      "factor": 1.0,
+      "q_approx": [
+        [
+          6.4586235192465685e-06,
+          1.3882991666462788e-05
+        ],
+        [
+          7.097645585474438e-06,
+          1.4056282833372458e-05
+        ],
+        [
+          6.458623590149079e-06,
+          1.3882991595560283e-05
+        ]
+      ],
+      "predicted_labels": [
+        1,
+        1,
+        1
+      ],
+      "ordinary_labels": [
+        0,
+        0,
+        0
+      ],
+      "omitted_background_mass": 0.4024429860219391,
+      "circuit_sha256": "0c0d18824ad75f5cdca55e0b07446cbd153d3a09dd9dc8d0e4ff501a59150704",
+      "label_one_effect": 2.1807373400525438e-05,
+      "predicted_effect": 2.1807373400525438e-05
+    }
+  ]
+}

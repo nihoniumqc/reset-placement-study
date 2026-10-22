@@ -1426,5 +1426,504 @@
     "original_shots": 10000000,
     "family_marginals": 12,
     "scale": 0.5
+  },
+  {
+    "id": "dense_00",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_00.stim",
+    "circuit_sha256": "15c05192d4bb9b8e95152bacb13c122ed3ab285ddf2d19843416a58c80a82285",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215000000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.125
+  },
+  {
+    "id": "dense_01",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_01.stim",
+    "circuit_sha256": "5a3c33fcd35d0aae2412c454ed9f4e1198eacac0695ed6f579c46aa873733bda",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215001000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.15
+  },
+  {
+    "id": "dense_02",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_02.stim",
+    "circuit_sha256": "75fb492d420d1c1cb28931281d9437715a76927f2920cf1c86abf15fe9aeb810",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215002000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.175
+  },
+  {
+    "id": "dense_03",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_03.stim",
+    "circuit_sha256": "39fc997a357542916fb754ecb227deadadcf61142236dad0743935a55d462748",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215003000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.225
+  },
+  {
+    "id": "dense_04",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_04.stim",
+    "circuit_sha256": "b50e28b7b69a7da490cf19a81bf80925d01707d489e63a6fa3ca0de4e7c58175",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215004000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.275
+  },
+  {
+    "id": "dense_05",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_05.stim",
+    "circuit_sha256": "41302f96aa50ac8688899a7bdfa256d2c025dcbf1b4b0240981f44dd4b2739bb",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215005000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.325
+  },
+  {
+    "id": "dense_06",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_06.stim",
+    "circuit_sha256": "eb6ca27d5b1857ec86f30afdafa49c3986c62ec9d11c45669e286e4df983887c",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215006000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.35
+  },
+  {
+    "id": "dense_07",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_07.stim",
+    "circuit_sha256": "eb00ebb3470fe60c599f613cbdaf29f137d97bcb7ed1f9c7ed6332514cb769a7",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215007000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.375
+  },
+  {
+    "id": "dense_08",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_08.stim",
+    "circuit_sha256": "3351de3d0870cafedf3f7abc43e2b1caebb5fc2745d0a38620628c845902f5a4",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215008000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.425
+  },
+  {
+    "id": "dense_09",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_09.stim",
+    "circuit_sha256": "08266e4ebca73d69899816dbd9ee297affd590dd25fdf6d8312e3f8aeb2bfa0d",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215009000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.45
+  },
+  {
+    "id": "dense_10",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_10.stim",
+    "circuit_sha256": "e7a82f4ea907803dc77064bf22e0baeb1bb56111aa253b974e6459f5fa7ca226",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215010000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "noise",
+    "scale": 0.475
+  },
+  {
+    "id": "dense_11",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_11.stim",
+    "circuit_sha256": "9ed13be1ed113352f879c978d14d5a59fe5403372a0e76bcc6a4b89b318213d7",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215011000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "attenuation",
+    "scale": 0.5,
+    "factor": 0.125
+  },
+  {
+    "id": "dense_12",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_12.stim",
+    "circuit_sha256": "7fa5149f7c0e0be35d0d4550ec89e98b09fedcfd53a753e44e97ed3fc2794901",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215012000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "attenuation",
+    "scale": 0.5,
+    "factor": 0.375
+  },
+  {
+    "id": "dense_13",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_13.stim",
+    "circuit_sha256": "ae0dd36a8b80129ce8b08db09be77f7fcd370dca1eb077ca2863f8ef992598fb",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215013000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "attenuation",
+    "scale": 0.5,
+    "factor": 0.625
+  },
+  {
+    "id": "dense_14",
+    "experiment": "dense_extension",
+    "circuit": "circuits/dense_14.stim",
+    "circuit_sha256": "a053e9ac696c0f92ead5733aee8eafa2850624f05f62b2e1e277632f185befbe",
+    "targets": [
+      [
+        63,
+        77
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "policies": {
+      "label_one": [
+        1,
+        1,
+        1
+      ]
+    },
+    "seed_base": 215014000,
+    "chunk_size": 50000,
+    "original_shots": 20000000,
+    "family_marginals": 150,
+    "kind": "attenuation",
+    "scale": 0.5,
+    "factor": 0.875
   }
 ]

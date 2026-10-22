@@ -11,8 +11,8 @@ The files here cover the main sampling experiments and likelihood calculations. 
 - `predict.py` calculates logical-label probabilities using all local fault orders and up to two background faults.
 - `physical_channels.py` provides the physical-fault propagation routines used in that calculation.
 - `analyze.py` recomputes paired effects and confidence intervals from the saved counts.
-- `circuits/` contains 37 Stim circuits for the original noise sweep, matched interventions, mixed-bias tests, and preparation–recovery extension.
-- `data/` contains eight datasets covering the experimental conditions, counts, predictions, intervention channels, expansion coefficients, and reset/readout comparisons.
+- `circuits/` contains 52 Stim circuits for the original and extended noise sweeps, matched interventions, mixed-bias tests, and preparation–recovery extension.
+- `data/` contains ten datasets covering the experimental conditions, counts, predictions, intervention channels, expansion coefficients, and reset/readout comparisons.
 
 ## Running the code
 
@@ -36,6 +36,7 @@ To sample a circuit or evaluate its likelihood prediction:
 python simulate.py mixed_00 --shots 10000
 python simulate.py mixed_00 --shots 10000 --correlated
 python predict.py mixed_00
+python simulate.py dense_00 --shots 10000
 ```
 
 A 10,000-shot run is useful for checking the installation. It cannot resolve the small error-rate differences reported in the study.
@@ -54,11 +55,15 @@ A positive effect means that the modified decoder makes fewer parity errors. The
 
 The intervals are built from Clopper–Pearson bounds, with simultaneous coverage calculated separately for each experimental family. Each row records the family size used. There is no single 95% confidence statement covering the whole study.
 
+`data/dense_results.json` contains all 27 conditions used in the final dense-sweep figures: 17 noise scales, nine targeted attenuation fractions, and one matched suppression. Each has 20 million shots. These rows reuse the original counts where applicable; they are not additional independent experiments. Their displayed intervals use a retrospective family of 270 marginals (four decoder-event counts and six syndrome/label counts per condition). The earlier intervals in `paired_results.json` are retained with their original family sizes.
+
+`data/attenuation_predictions.json` gives the nine deterministic predictions overlaid on the attenuation sweep. These predictions were calculated after the experiment, without fitting to the observations. They are separate from the prospective mixed-noise and circuit-extension tests. `predict.py` can recompute them from the corresponding condition identifiers.
+
 Correlated matching is evaluated on the same mixed-bias records as ordinary matching. Those comparisons are not independent replications. Some policies also make exactly the same decisions; their zero difference is an identity, not an estimated improvement.
 
 ## What the package can reproduce
 
-The scripts support circuit sampling, the selected likelihood approximation, and analysis of the saved aggregate counts. They do not reproduce every calculation in the paper.
+The scripts support circuit sampling, the selected likelihood approximation, and analysis of the saved aggregate counts. `analyze.py` also checks the circuit hashes and reconstructs all 270 marginal intervals used in the dense figures, along with the target-versus-control contrasts. `simulate.py` reports the complete-syndrome label counts as well as the paired decoder outcomes. They do not reproduce every calculation in the paper.
 
 In particular, the joint-likelihood and reset/readout datasets contain the final estimates and intervals, but their large estimator checkpoints are not included. The scripts were extracted from the research code and are not byte-for-byte copies of the original experiment drivers.
 

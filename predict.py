@@ -4,7 +4,7 @@ This is an unnormalized approximation, not a certified near-ML decoder.
 """
 from pathlib import Path
 from collections import defaultdict
-import json,math,argparse
+import json,math,argparse,hashlib
 import numpy as np
 import stim,pymatching
 from physical_channels import physical_channels
@@ -13,7 +13,9 @@ SUPPORT=[60,63,64,66,69,70,74,77,79,80,83,89,93,94]
 EXTENDED=[76,79,80,82,85,86,90,93,95,96,99,105,109,110]
 
 def calculate(condition):
- c=stim.Circuit((ROOT/condition['circuit']).read_text());nd=c.num_detectors
+ payload=(ROOT/condition['circuit']).read_bytes()
+ c=stim.Circuit(payload.decode());nd=c.num_detectors
+ assert hashlib.sha256(str(c).encode()).hexdigest()==condition['circuit_sha256']
  support=EXTENDED if condition['experiment']=='boundary' else SUPPORT
  outside=((1<<nd)-1)^sum(1<<d for d in support);dim=1<<(len(support)+1);lbit=dim//2;idx=np.arange(dim)
  def project(v):return sum(((v>>d)&1)<<j for j,d in enumerate(support))|((v>>nd)<<len(support))

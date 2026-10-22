@@ -15,18 +15,21 @@ def simulate(condition,shots,correlated=False):
  dem=c.detector_error_model(decompose_errors=True,approximate_disjoint_errors=True)
  m=pymatching.Matching.from_detector_error_model(dem,enable_correlations=correlated)
  counts={p:np.zeros(4,dtype=np.int64) for p in condition['policies']}
+ target_counts=np.zeros((len(condition['targets']),2),dtype=np.int64)
  for chunk,start in enumerate(range(0,shots,condition['chunk_size'])):
   n=min(condition['chunk_size'],shots-start)
   ds,obs=c.compile_detector_sampler(seed=condition['seed_base']+chunk).sample(n,separate_observables=True)
   pred=m.decode_batch(ds,enable_correlations=correlated)[:,0];obs=obs[:,0]
   hs=np.column_stack([(ds.sum(axis=1)==len(t)) & np.all(ds[:,t].astype(bool),axis=1) for t in condition['targets']]).astype(bool)
+  for j in range(len(condition['targets'])):
+   for label in (0,1):target_counts[j,label]+=np.count_nonzero(hs[:,j] & (obs==label))
   old=pred!=obs
   for policy,labels in condition['policies'].items():
    alt=pred.copy()
    for j,label in enumerate(labels):alt[hs[:,j]]=label
    new=alt!=obs
    counts[policy]+=np.array([old.sum(),new.sum(),(old&~new).sum(),(~old&new).sum()])
- return {'condition':condition['id'],'shots':shots,'correlated':correlated,'policies':{p:{'counts':v.tolist(),'effect':float((v[2]-v[3])/shots)} for p,v in counts.items()}}
+ return {'condition':condition['id'],'shots':shots,'correlated':correlated,'target_counts':target_counts.tolist(),'policies':{p:{'counts':v.tolist(),'effect':float((v[2]-v[3])/shots)} for p,v in counts.items()}}
 
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('condition');ap.add_argument('--shots',type=int,default=10000);ap.add_argument('--original-shots',action='store_true');ap.add_argument('--correlated',action='store_true');a=ap.parse_args()
